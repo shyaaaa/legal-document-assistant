@@ -1,5 +1,6 @@
 ⚖️ Legal Document Assistant
 
+
 📌 Overview
 This project is an AI-powered Legal Document Assistant designed to provide accurate answers to legal queries based strictly on the documents supplied by the user. Instead of generating generic responses, it focuses on understanding context and delivering precise, reliable information—making legal content easier to access and interpret.
 
@@ -9,6 +10,7 @@ This project is an AI-powered Legal Document Assistant designed to provide accur
 * No Hallucination: Avoids making up information; every answer is grounded in actual data.
 * Fast Responses: Optimized for quick query resolution.
 * Simple User Interface: Built with Streamlit for an intuitive and user-friendly experience.
+
 
 
 🧠 System Architecture
@@ -21,10 +23,13 @@ User Query → Memory → Router → Retrieval → Answer → Evaluation → Res
 - Answer: Generates response from context  
 - Evaluation: Ensures correctness  
 
+
+
 🛠️ Tech Stack
 * Python – Core programming language
 * LangGraph – For structured and efficient workflow handling
 * Streamlit – For building a clean and interactive UI
+
 
 
 🔄 Workflow Diagram
@@ -45,12 +50,12 @@ Final Output
 
 📂 Project Structure
 legal-document-assistant/
-│
-├── agent.py        → Core logic
-├── app.py          → Streamlit UI
-├── requirements.txt
-├── README.md
-└── Legal_Document_Assistant.ipynb
+
+1. agent.py        → Core logic
+2. app.py          → Streamlit UI
+3. equirements.txt
+4. README.md
+5. Legal_Document_Assistant.ipynb
 
 
 ▶️ How to Run the Project
